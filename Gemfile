@@ -13,6 +13,8 @@ gem "sprockets-rails"
 
 gem "bootstrap-sass", "3.4.1"
 
+gem 'jquery-rails'
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
@@ -29,9 +31,9 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
-gem "webpacker", "~> 5.0"
-
 gem "psych", "< 4"
+
+gem "bootstrap", "~> 4.0.0"
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
@@ -49,6 +51,7 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
 # Use Sass to process CSS
+gem "sassc"
 gem "sassc-rails"
 gem "sass-rails"
 
