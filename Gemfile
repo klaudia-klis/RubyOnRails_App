@@ -8,7 +8,7 @@ gem "rails", "~> 7.0.3"
 
 gem "bcrypt", "3.1.13"
 
-gem "faker", "~> 2.1.2"
+gem "faker", "2.23.0"
 
 gem "will_paginate", "3.3.0"
 
