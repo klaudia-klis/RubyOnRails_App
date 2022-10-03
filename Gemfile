@@ -6,6 +6,8 @@ ruby "3.1.2"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.3"
 
+gem 'active_storage_validations', "0.9.8"
+
 gem "bcrypt", "3.1.13"
 
 gem "faker", "2.23.0"
