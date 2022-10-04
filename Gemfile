@@ -8,6 +8,8 @@ gem "rails", "~> 7.0.3"
 
 gem 'active_storage_validations', "0.9.8"
 
+gem 'byebug'
+
 gem "bcrypt", "3.1.13"
 
 gem "faker", "2.23.0"
